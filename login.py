@@ -46,7 +46,7 @@ def login(username, password):
 
 def main():
     print("\n请输入登录信息:")
-    username = input("用户名: ").strip()
+    username = input("学号: ").strip()
     password = input("密码: ").strip()
     
     success = login(username, password)
